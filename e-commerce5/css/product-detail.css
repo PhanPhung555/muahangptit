@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing : border-box;
+    font-family: 'Quicksand', sans-serif !important;
+}
+button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.box-product-details{
+    margin: 20px 150px;
+    height: 500px;
+}
+.title-current-page{
+    height: 40px;
+    margin:20px;
+    font-size: 13.8px;
+    font-weight: normal;
+}
+.title-current-page button:first-child{
+    padding: 0 10px;
+    border-right: 1px solid #afafb0;
+}
+.title-current-page span:nth-child(2){
+    padding: 0 10px;
+    border-right: 1px solid #afafb0;
+}
+.title-current-page span:last-child{
+    padding: 0 10px;
+}
+.box-product-details .list-image-product-detail{
+    height: auto;
+    background: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.box-product-details .list-image-product-detail .image-product{
+    height: 65px;
+    width: 65px;
+    background: red;
+}
+
+.box-product-details .image-product-detail{
+    height: 500px;
+    background: yellow;
+}
+.box-product-details .see-detail-img{
+    width: 100%;
+    padding: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+.box-product-details .see-detail-img button{
+    color: #5f6364;
+}
+.box-product-details .icon-see-detail-img{
+    font-size: 20px;
+}
+
+.information-product-detail{
+    height: 500px;
+}
+.title-product-detail{
+    padding: 5px 0;
+    border-bottom: 1px solid #dfe0e1;
+}
+.check-goods{
+    font-size: 14px;
+    color: #252A2b;
+    margin-top: 10px;
+}
+.title-product-detail > h1{
+    font-size: 16px;
+    font-weight: 700;
+}
+.price-product-detail{
+    margin-top: 10px;
+    font-size: 21px;
+    font-weight: 700;
+}
+.color-product-detail{
+    margin: 20px 0;
+}
+.color-product-detail > span,.size-product-detail > span{
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-rendering: geometricPrecision;
+}
+.list-color-product-detail,.list-size-product-detail{
+    padding: 10px 0;
+    display: flex;
+    gap: 10px;
+}
+.color-product{
+    height: 35px;
+    width: 35px;
+    border: 1px solid #dfe0e1;
+    border-radius: 50%;
+}
+.size-product{
+    height: 32px;
+    width: 32px;
+    font-size: 16px;
+    text-align: center;
+    align-content: center;
+    background: white;
+    cursor: pointer;
+    border: 0.5px solid black;
+}
+.select-quantity-product-detail{
+    display: flex;
+    margin: 15px 0;
+
+}
+.select-quantity-product-detail .quantity-reduce,
+.select-quantity-product-detail .quantity-more{
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border: 0.5px solid #dfe0e1;
+    cursor: pointer;
+
+}
+.select-quantity-product-detail > button > span{
+    font-size: 20px;
+}
+.select-quantity-product-detail .quantity-display{
+    height: 40px;
+    width: 80px;
+    text-align: center;
+    align-content: center;
+    background: white;
+    border-top: 0.5px solid #dfe0e1;
+    border-bottom: 0.5px solid #dfe0e1;
+}
+
+.btn-product-detail {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0 -8px;
+    align-items: center;
+    justify-content: center;
+}
+.btn-product-detail .add-to-cart,
+.btn-product-detail .buy-now{
+    min-height: 50px;
+    width: 47%;
+    background: black;
+    color: white;
+    padding: 0 10px;
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+}
+.btn-product-detail .favourite-product{
+    min-height: 40px;
+    width: 70%;
+    background: white;
+    color: black;
+    padding: 0 10px;
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid #252A2b;
+}
+.benefit-buy-product{
+    margin: 30px 0;
+    padding: 20px 0;
+    border-top: 0.5px solid #dfe0e1;
+}
+.benefit-buy-product .transport-product-free > img,
+.benefit-buy-product .change-product > img,
+.benefit-buy-product .switchboard-product > img{
+    width: 25px;
+    height: 25px;
+}
+.benefit-buy-product .transport-product-free,
+.benefit-buy-product .change-product,
+.benefit-buy-product .switchboard-product{
+    margin-bottom: 30px;
+    display: flex;
+    gap: 20px;
+}
+.content-transport-product > h5,
+.content-change-product > h5,
+.content-switchboard-product > h5{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    color: #252a2b;
+}
+.content-transport-product > span,
+.content-change-product > span,
+.content-switchboard-product > span{
+    font-size: 13px;
+}
+.information-product-detail .shop-product-still{
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    border : 1px solid #dfe0e1;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.information-product-detail .shop-product-still .shop-still {
+    display: block;
+    background: black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+    padding: .6rem .5rem;
+    text-align: center;
+    font-size: 17px;
+}
+.information-product-detail .shop-product-still .select-conscious{
+    width: 370px;
+    height: 30px;
+    margin: 5px;
+    border: 1px solid #dfe0e1;
+    padding: 4px 10px;
+    outline: none;
+    appearance: none; /* Loại bỏ kiểu dáng mặc định của trình duyệt */
+    -webkit-appearance: none; /* Dành cho Safari */
+    -moz-appearance: none;
+}
+.information-product-detail .shop-product-still .information-select span{
+    display: block;
+    padding: 2rem .5rem;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    color: #333;
+    font-weight: normal;
+}
+.detail-support-product{
+    text-transform: uppercase;
+    margin-top: 20px;
+
+}
+.parameter-product,.policy-product,.instruct-product{
+    position: relative;
+}
+.detail-support-product-icon{
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+    font-weight: bold;
+    background: white;
+    border: none;
+    cursor: pointer;
+}
+.detail-support-product .parameter-product > h2,
+.detail-support-product .policy-product > h2,
+.detail-support-product .instruct-product > h2{
+    padding: 12px 0;
+    font-size: 13.5px;
+    color: #252a2b;
+    font-weight: 500;
+    border-bottom: 1px solid #dfe0e1;
+}
+.share{
+    margin-top: 20px;
+    cursor: pointer;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    background: white;
+    border: 1px solid black;
+}
+.share > span{
+    font-size: 17px;
+}

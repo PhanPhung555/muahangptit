@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Quicksand', sans-serif ;
+}
+span,p,h1,h2,h3,h4,h5,h6{
+    --webkit-font-smoothing:antialiased; ;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#footer{
+    background: #f1f1f1;
+
+    /*background: red;*/
+}
+
+#footer .box-footer{
+    height:275px;
+    margin-top: 20px;
+    /*background: yellow;*/
+}
+.customer-support{
+    margin-left: 130px;
+}
+.about-us{
+    margin-left: 50px;
+}
+.shop-system{
+    margin-left: 0;
+}
+.fanPage-we{
+    margin-right: 130px;
+}
+.customer-support .box-instruct
+,.about-us .box-instruct
+,.shop-system .box-instruct
+, .fanPage-we .box-instruct{
+    margin-top: 20px;
+}
+.customer-support .box-instruct p
+,.about-us .box-instruct p
+,.shop-system .box-instruct p
+,.fanPage-we .box-instruct p{
+    padding: 5px 0;
+    font-size: 13px;
+    opacity: .8;
+}
+.customer-support > h4
+,.about-us > h4,
+.shop-system > h4
+,.fanPage-we >h4{
+    text-transform: uppercase;
+    color: #252A2b;
+    font-weight: 500;
+    font-size:14px;
+}
+.box-footer .box-faPage{
+
+    width: 301px;
+    height: 202px;
+    border: 1px solid #ddd;
+}

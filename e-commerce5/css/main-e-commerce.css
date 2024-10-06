@@ -1,0 +1,603 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing : border-box;
+    font-family: 'Quicksand', sans-serif !important;
+}
+body{
+
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+a{
+    text-decoration: none;
+}
+span,p,h1,h2,h3,h4,h5,h6{
+    --webkit-font-smoothing:antialiased; ;
+    -moz-osx-font-smoothing: grayscale;
+}
+#main .box-child-1{
+    width: 100%;
+    height: 585px;
+    background: red;
+}
+#main .box-child-1 .box-1-image{
+    width: 100%;
+    height: 123%;
+}
+
+
+#main .box-child-3{
+    margin: 0 38px;
+    height: auto;
+}
+#main .box-child-3 .box-movement{
+    height: 500px;
+    margin: 0 30px;
+}
+.title-movement{
+    height: 60px;
+}
+.box-movement .title-movement a{
+    position: relative;
+    padding-bottom: 20px;
+    color: #252A2b;
+    font-weight:bold;
+    font-size:20px;
+    cursor: pointer;
+}
+.box-child-3 .box-movement a::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 150px;
+    height:0.5px;
+    background: black;
+}
+.box-movement p{
+    margin: 10px 80px 0 0;
+    display: block;
+    color: #252A2b;
+    font-size: 14px;
+    line-height: 2;
+    letter-spacing: 0.2px;
+}
+.box-movement .list-product-discount{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    height: 355px;
+}
+.btn-backward,.btn-progress{
+    flex : 1;
+}
+.btn-page{
+    margin-top: 100px;
+    background: transparent;
+    position: absolute;
+    width: 35px;
+    height: 75px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+}
+.btn-progress .btn-next{
+    margin-left: 20px;
+    background-image: url("../image/right_arrow_fix1.png") ;
+}
+.btn-backward .btn-Previous{
+    background-image: url("../image/left_arrow_fix1.png") ;
+}
+
+.list-product{
+    flex: 10;
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+.product-discount{
+    display: flex;
+    flex-direction: column;
+    flex:6;
+}
+.product-discount .product-discount-image{
+
+}
+.product-discount .product-discount-image .image-product{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.product-discount .product-discount-content{
+    flex:3;
+    text-align: center;
+
+}
+.product-discount .product-discount-content a{
+    font-size: 13px;
+    color: #252A2b;
+    margin:0;
+}
+.product-discount .product-discount-content .product-price{
+    font-weight: bold;
+    margin: 0;
+    width: 100%;
+}
+.product-discount .product-discount-content .discount-code{
+    margin: 0;
+    color: red;
+    font-weight: 550;
+    width: 100%;
+    font-size: 14px;
+}
+#main .box-child-3 .bg-inspiration{
+    height: 472px;
+}
+#main .box-child-3 .bg-inspiration img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#main .box-child-hand-bag{
+    margin: 50px 38px;
+    height: auto;
+}
+#main .box-child-6{
+    margin: 50px 38px;
+    /*height: 905px;*/
+    height: 300px;
+    background: red;
+}
+
+
+#main .box-child-8{
+    margin: 50px 70px;
+    border-top: 1px solid #999;
+}
+#main .box-store-information{
+    display: flex;
+    align-items: end;
+    height: 140px;
+
+}
+#main .box-child-8 .store-information{
+    height: 100px;
+}
+.store-information .store-info-1{
+    display: flex;
+    text-align: center;
+    margin: 10px 30px;
+}
+.store-information .store-info-ig,.store-info-ytb,.store-info-fb{
+    display: flex;
+    margin: 10px 0 0 30px;
+
+}
+.store-information h4{
+    text-transform: uppercase;
+    margin: 0 30px;
+    color: #252A2b;
+    font-weight: 500;
+    font-size:14px;
+}
+.store-information-icon{
+    margin: 3px 15px 0 0;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #e52c25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.store-information-icon > i{
+    color:white;
+}
+.store-information-phone{
+    font-size: 27px;
+    font-weight: 400;
+}
+.store-information > p{
+    word-spacing: 1px;
+    font-size: 11px;
+    margin: 0 30px;
+    opacity: .8;
+}
+.store-information .form-info-customer{
+    display: flex;
+}
+.store-information .form-info-customer > input[type='email']{
+    background-color: white;
+    height: 36px;
+    font-size: 15px;
+    color: #333;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0;
+    border: 1px solid #d0d0d0;
+    padding: 0 15px;
+}
+.store-information .form-info-customer > input::placeholder{
+    opacity: .5;
+    font-size: 13px;
+}
+
+.store-information .form-info-customer > button{
+    height: 35px;
+    width: 75px;
+    background: black;
+    color: white;
+    outline: none;
+    border: none;
+}
+.store-information-icon-ytb,.store-information-icon-fb,.store-information-icon-ig{
+    margin-right: 10px;
+
+}
+.store-information-icon-ig{
+    width: 16.3px ;
+    height: 17px;
+    background: linear-gradient(
+            45deg,
+            #feda75,
+            #fa7e1e,
+            #d62976,
+            #962fbf,
+            #4f5bd5
+    );
+    border-radius:4px;
+}
+.store-information-facebook,.store-information-youtube,.store-information-instagram {
+    font-size: 13px;
+}
+
+/*Box child-2 Các saản phẩm nổi bật*/
+#main .box-child-2{
+    margin: 150px 126px 50px 126px;
+    height: auto;
+    width: auto;
+
+}
+#main .box-child-2 .content-height-hell,.box-child-2 .content-hand-bag,.box-child-2 .content-shoe-sandal{
+    width: 400px;
+    height: 565px;
+
+}
+.box-child-2 .content-height-hell .image-height-hell{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    z-index: 1;
+    position: absolute;
+}
+.box-child-2 .content-height-hell .title-height-hell{
+    margin: 10px 0 15px 0;
+    text-decoration: none;
+    color: #252A2b;
+    font-size: 15px;
+}
+.box-child-2 .content-height-hell .btn-height-hell{
+    display: block;
+    padding: 7px;
+    border: 1px solid black;
+    background: white;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+.box-child-2 .content-height-hell .btn-height-hell:hover{
+    background: black;
+    color: white;
+    cursor:pointer;
+}
+.box-child-2 .content-height-hell .btn-height-hell:hover span{
+    opacity: 1;
+}
+.box-child-2 .content-height-hell .btn-height-hell > span{
+    opacity: .7;
+}
+.height-hell-animation{
+    position: relative;
+    height: 500px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.height-hell-animation .hell-child-animation{
+    position: absolute;
+    width: 370px;
+    height: 470px;
+    overflow: hidden;
+    z-index: 10;
+}
+.hell-child-animation span:nth-child(1){
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 1px;
+}
+.hell-child-animation span:nth-child(2){
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+}
+.hell-child-animation span:nth-child(3){
+    position: absolute;
+    left: 0;
+    margin-left: -1px;
+    width: 1px;
+    height: 100%;
+}
+.hell-child-animation span:nth-child(4){
+    position: absolute;
+    right: 0;
+    width: 1.5px;
+    height: 100%;
+}
+.hell-child-animation span:nth-child(3)::after
+,.hell-child-animation span:nth-child(4)::after{
+    position: absolute;
+    bottom: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 1px;
+    width:2.5px;
+    content: '';
+    background: white;
+    transition: all 1s ease-in-out;
+}
+.hell-child-animation:hover span:nth-child(3)::after,
+.hell-child-animation:hover span:nth-child(4)::after{
+    height: 100%;
+}
+.hell-child-animation span:nth-child(1)::after
+,.hell-child-animation span:nth-child(2)::after{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 1.5px;
+    width:0;
+    content: '';
+    background: white;
+    transition: all 1s ease-in-out;
+}
+.hell-child-animation:hover span:nth-child(1)::after
+,.hell-child-animation:hover span:nth-child(2)::after{
+    width: 100%;
+}
+.height-hell-xct-title{
+    flex-direction: column;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/*Box 4 - danh sách giày và danh sách chọn lựa giày*/
+#main .box-child-4{
+    margin: 100px 38px;
+    height: auto;
+}
+#main .box-child-4 .select-shoe-height_heel,
+.box-child-hand-bag .select-hand-bag{
+    width: 100%;
+    height: 73px;
+    display: flex;
+    position: relative;
+    text-transform: uppercase;
+}
+
+#main .box-child-4 .box-shoe-judo,
+#main .box-child-hand-bag .box-hand-bag{
+    margin: 20px 10px;
+}
+
+#main .box-child-4 .box-shoe-judo .shoe-judo
+,.box-child-hand-bag .box-hand-bag .hand-bag{
+    height: 433px;
+    margin: 5px 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.box-child-4 .select-shoe-height_heel .list-select-shoe,
+.box-child-hand-bag .select-hand-bag .list-select-bag{
+    margin: 0 20px;
+    display: flex;
+    gap:30px;
+    align-items: center;
+}
+.box-child-4 .select-shoe-height_heel .list-select-shoe a,
+.box-child-hand-bag .select-hand-bag .list-select-bag  a{
+    font-size: 14px;
+    color: #252A2b;
+    font-weight: 500;
+    text-rendering: optimizeLegibility;
+}
+
+.box-child-4 .select-shoe-height_heel .list-select-shoe h4:hover,
+.box-child-hand-bag .select-hand-bag .list-select-bag h4:hover{
+    padding: 5px 0;
+    border-bottom: 2px solid #252A2b;
+}
+.box-child-4 .select-shoe-height_heel h2 a,
+.box-child-hand-bag .select-hand-bag h2 a{
+    margin-top: 8px;
+    font-size: 30px;
+    color: #252A2b;
+}
+.select-shoe-height_heel .page-shoe,
+.select-hand-bag .page-had-bag{
+    display: flex;
+    position: absolute;
+    gap: 15px;
+    right: 0;
+
+}
+.select-shoe-height_heel .page-shoe button,
+.select-hand-bag .page-had-bag button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.select-shoe-height_heel .page-shoe button:hover,
+.select-hand-bag .page-had-bag button:hover{
+    color: red;
+}
+.select-shoe-height_heel .page-shoe button i,
+.select-hand-bag .page-had-bag button i{
+    font-size: 36px;
+}
+.box-child-4 .shoe-judo,
+.box-child-hand-bag .hand-bag{
+    display: flex;
+    flex-direction : column;
+}
+.shoe-judo-image{
+
+}
+.shoe-judo .shoe-judo-image img,
+.hand-bag .hand-bag-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.shoe-judo .shoe-judo-info,
+.hand-bag .hand-bag-info{
+    text-align: center;
+}
+.shoe-judo .shoe-judo-info .title-name-shoe-judo,
+.hand-bag .hand-bag-info .title-name-hand-bag{
+    font-size: 14px;
+    margin: 0;
+    opacity: .7;
+}
+.shoe-judo .shoe-judo-info .price-shoe-judo,
+.hand-bag .hand-bag-info .price-hand-bag{
+    font-size: 14px;
+    margin: 10px;
+    font-weight: 600;
+}
+.shoe-judo:hover,
+.hand-bag:hover{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.shoe-judo:hover .shoe-btn-buy-detail,
+.hand-bag:hover .bag-btn-buy-detail{
+    opacity: 1;
+}
+.shoe-judo .shoe-btn-buy-detail,
+.hand-bag .bag-btn-buy-detail{
+    transition: all 0.5s ease-in-out;
+    margin-top: 9px;
+    width: 100%;
+    height: 38px;
+    display: flex;
+    opacity: 0;
+}
+.shoe-judo .shoe-btn-buy-detail .btn-buy-shoe
+,.shoe-judo .shoe-btn-buy-detail .btn-detail-shoe,
+.hand-bag .bag-btn-buy-detail .btn-buy-bag,
+.hand-bag .bag-btn-buy-detail .btn-detail-bag {
+    width: 50%;
+    position: relative;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.shoe-btn-buy-detail .btn-buy-shoe .icon-cart-show,
+.shoe-btn-buy-detail .btn-detail-shoe .icon-detail-shoe,
+.hand-bag .bag-btn-buy-detail .btn-buy-bag .icon-cart-show,
+.hand-bag .bag-btn-buy-detail .btn-detail-bag .icon-detail-shoe{
+    padding: 0 3px;
+}
+
+.shoe-btn-buy-detail .btn-buy-shoe::before,
+.bag-btn-buy-detail .btn-buy-bag::before{
+    position: absolute;
+    content: "";
+    width: 1px ;
+    height: 24px;
+    right: 0;
+    top: 6px;
+    background: white;
+}
+
+/*Box child-7 event */
+#main .box-child-7{
+    margin: 50px 38px;
+    /*height: 905px;*/
+    height: auto;
+}
+#main .box-child-7 .news{
+    height: 396px;
+    display: flex;
+    flex-direction: column;
+}
+.box-child-7 .title-event {
+    padding-bottom: 48px;
+    text-transform: uppercase;
+}
+.box-child-7 .title-event a{
+    font-size: 30px;
+    color: #252A2b;
+}
+.box-child-7 .news .news-image{
+    flex: 0 0 50%;
+}
+.news .news-image > img{
+    width: 100%;
+    height: auto;
+}
+.news .news-title{
+    flex: 0 0 10%;
+    margin-top: 10px;
+}
+.news-title h4 a{
+    font-size: 17px;
+    color: #252A2B;
+    font-weight: 500;
+}
+.news .news-content{
+    overflow: hidden;
+    text-align: left;
+    flex: 0 0 15%;
+    margin-top: 10px;
+}
+.news .news-content p{
+    margin: 0;
+    font-size: 14px;
+    color: #252A2B;
+    line-height: 1.4;
+    font-weight: 500;
+}
+.new .news-btn{
+    flex:0 0 5%;
+}
+.news .news-btn button{
+    border: none;
+    color: #a94442;
+    font-size: 14px;
+    background: transparent;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.news .news-btn button:hover{
+    color: #e52c25;
+}
