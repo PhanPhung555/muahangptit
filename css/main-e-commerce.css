@@ -92,10 +92,10 @@ span,p,h1,h2,h3,h4,h5,h6{
 }
 .btn-progress .btn-next{
     margin-left: 20px;
-    background-image: url("../image/right_arrow_fix1.png") ;
+    background-image: url("./image/right_arrow_fix1.png") ;
 }
 .btn-backward .btn-Previous{
-    background-image: url("../image/left_arrow_fix1.png") ;
+    background-image: url("./image/left_arrow_fix1.png") ;
 }
 
 .list-product{
